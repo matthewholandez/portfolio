@@ -12,7 +12,6 @@ export default function Contact() {
         <h4 className="text-2xl">contact me</h4>
         <br/>
         <a className="text-cyan-600" href="mailto:matt@matthewholandez.com">matt at matthewholandez dot com</a> 
-        <p>serious inquiries only</p>
         <p>Toronto, ON</p>
         <br/><br/>
         <Link href="/" className="inline-block px-4 py-2 bg-white border border-black text-black rounded-sm">back</Link>
