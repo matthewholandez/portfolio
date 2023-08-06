@@ -11,7 +11,7 @@ export default function Past() {
       <main className="flex min-h-screen flex-col items-center justify-center font-thew">
         <h4 className="text-2xl">past projects</h4>
         <br/>
-        <p>this page will be completed in due time! for now check out my <a className="text-cyan-600"href="https://github.com/matthewholandez" target="_blank">github</a></p>
+        <p>This page will be completed in due time. For now, check out my <a className="text-cyan-600"href="https://github.com/matthewholandez" target="_blank">GitHub</a></p>
         <br/>
         <Link href="/" className="inline-block px-4 py-2 bg-white border border-black text-black rounded-sm">back</Link>
 

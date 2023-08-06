@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Link from "next/link"
+import Link from "next/link";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -9,18 +10,21 @@ export default function Home() {
         <meta name="description" content="Matthew Holandez" />
         <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAARqltAB86OwARGSUAH1I6ABgjMgAnTzoANJhcABtVMgA4ODgAEhsoABklNQAgL0IAQaVpAEKlaQAzlloAIjFFACSHSwBTr34AWbKGACZyRAAmN00ARKdsADWYXQBAo2cAMZRYAFewhABIoXUAKz9YAD6hZQAVNigAOpxjABwpPAA4gFcAJjlRACItOQAkZj4AJDVMABZCKAAfLj8AMT1OADqdYQAxc0sAJGA/ACo9VwAzblEAPXlbAB4sPQAlTjgATal5AD1ESwAbKDgARKFvADpTdAAwcEwAHUkuADWZXQBNpnoAQqZqAFVVVQBDpmoAKm1FAB5FOgAhYjsAJYhMAFqzhwAgLkEALEJbAEWobQA2mV4AQaRoAGbBkQAhXTkAMpVZAFKufQAuRF4ASKZzABs3OQAbRy0AF0MoAD+iZgAdRjAAJjhPACxCXABlvpIAEiQlAD2gZAAaJjgASq1xABc0KgA7nmIAYbqOACEwRgBIq28AHy0+ADmcYABfuIwAGSU0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUFAAAAAAAAAAAAAAAAJSVLLxUFAAAAAAAAAAAoXDUlNQMFBQoLAAAAACU1IlIiIDteJwwzQgUFAABDJVMyNTVXBQUFI2EFXgAAV0ssJUslJQMVXgUVAxUAAEslHBw1JVcFXgULXhUJAAAlNSVXVyU/AwNeAxAFAwAAV0scBC4+JE5RA1UDBQUAACVXAis2IUFQCFkeBgUDAABXLU0qB10aWA9ENzBPJgAAPRQWTB1gORhaQEc4SCYAAAExRTpbPBdUOhdJExJKAAAAAEYpDUkZH0YbRkYAAAAAAAAAAA4WX1YpNAAAAAAAAAAAAAAAABFWAAAAAAAAAP5/AAD4HwAA4AcAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAADgBwAA+B8AAP5/AAA=" rel="icon" type="image/x-icon" />      </Head>
       <main className="flex min-h-screen flex-col items-center justify-center font-thew">
-        <h1 className="text-3xl lg:text-4xl text-black font-light italic">
+        <h1 className="text-3xl lg:text-4xl text-black font-light italic pb-2">
           Matthew Holandez
         </h1>
-        <h4 className="text-sm md:text-lg text-black font-medium">
-          <Link className="text-cyan-600" href="/contact">Contact</Link> 
-          <span> / </span>
-          <Link className="text-cyan-600" href="/past">Past Projects</Link> 
-          <span> / </span>
-          <a className="text-cyan-600" target="_blank" href="https://github.com/matthewholandez">GitHub</a>
-          <span> / </span>
-          <a className="text-cyan-600" target="_blank" href="https://linkedin.com/matthewholandez">LinkedIn</a>
-        </h4>
+        <div className="flex gap-5 text-sm md:text-lg text-black font-medium pb-2">
+          <Link className="text-cyan-600" href="/contact">contact</Link> 
+          <Link className="text-cyan-600" href="/past">past projects</Link> 
+        </div>
+        <div className="flex gap-2">
+          <a className="text-2xl" target="_blank" href="https://github.com/matthewholandez">
+            <AiFillGithub /> 
+          </a>
+          <a className="text-2xl" target="_blank" href="https://linkedin.com/in/matthewholandez/">
+            <AiFillLinkedin />
+          </a>
+        </div>
       </main>
     </>
   );
