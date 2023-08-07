@@ -7,7 +7,12 @@ export default function Home() {
     <>
       <Head>
         <title>Matthew Holandez</title>
-        <meta name="description" content="Matthew Holandez" />
+        <meta name="description" content="High school student, aspiring software engineer" />
+        <meta name="author" content="Matthew Holandez" />
+        <meta property="og:title" content="Matthew Holandez" />
+        <meta property="og:description" content="High school student, aspiring software engineer" />
+        <meta property="og:url" content="https://mattholandez.com/" />
+        <meta property="og:type" content="website" />
         <link href='favicon.ico' rel='icon' type='image/x-icon' />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center font-thew">
