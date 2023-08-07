@@ -15,7 +15,6 @@ export default function Past() {
         <p>This page will be completed in due time. For now, check out my <a className="text-cyan-600"href="https://github.com/matthewholandez" target="_blank">GitHub</a></p>
         <br/>
         <Link href="/" className="inline-block px-4 py-2 bg-white border border-black text-black rounded-sm">back</Link>
-
       </main>
     </>
   );
