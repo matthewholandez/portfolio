@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="author" content="Matthew Holandez" />
         <meta property="og:title" content="Matthew Holandez" />
         <meta property="og:description" content="High school student, aspiring software engineer" />
-        <meta property="og:url" content="https://mattholandez.com/" />
+        <meta property="og:url" content="https://matthewholandez.com/" />
         <meta property="og:type" content="website" />
         <link href='favicon.ico' rel='icon' type='image/x-icon' />
       </Head>
