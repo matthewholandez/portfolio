@@ -23,11 +23,11 @@ export default function Home() {
           <Link className="text-cyan-600" href="/contact">contact</Link> 
           <Link className="text-cyan-600" href="/past">past projects</Link> 
         </div>
-        <div className="flex gap-2">
-          <a className="text-2xl" target="_blank" href="https://github.com/matthewholandez">
+        <div className="flex gap-5 text-2xl">
+          <a target="_blank" href="https://github.com/matthewholandez">
             <AiFillGithub /> 
           </a>
-          <a className="text-2xl" target="_blank" href="https://linkedin.com/in/matthewholandez/">
+          <a target="_blank" href="https://linkedin.com/in/matthewholandez/">
             <AiFillLinkedin />
           </a>
         </div>
